@@ -97,7 +97,7 @@
     align-items: flex-start;
     height: 100%;
     margin-left: 1rem;
-    margin-top: 8%;
+    margin-top: 2%;
     div{
         width: 100px;
         height: 100px;
@@ -112,12 +112,14 @@
         }
     }
     div:nth-child(1){
+        margin-right: 1.75rem;
+        
         width: 100px;
         height: 100px;
     }
     div:nth-child(2){
         margin: 1.5rem;
-        margin-bottom: .5rem;
+        margin-bottom: .3rem;
         width: 90px;
         height: 90px;
 
@@ -175,10 +177,10 @@
     justify-content: flex-end;
     align-items : flex-end;
     position: relative;
-    margin-top: 4%;
+    margin-top: 2%;
     
     img{
-        width: 80%;
+        width: 85%;
         object-fit:contain;
         z-index: 1; 
     }
