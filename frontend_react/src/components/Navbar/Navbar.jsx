@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import "./Navbar.scss";
-import { images } from "../../constants";
-import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import { HiMenuAlt4, HiX } from "react-icons/hi";
+import { images } from "../../constants";
+import "./Navbar.scss";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
@@ -16,8 +16,9 @@ const Navbar = () => {
           "about",
           "work",
           "skills",
-          "mentorship",
-          "contact"
+          "testimonial",
+          "contact",
+          "Mentorship"
         ].map((item) =>(
           <li className="app__flex p-text" key={`link-${item}`}>
             <div>
